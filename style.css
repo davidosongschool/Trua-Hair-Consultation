@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.contain-quiz {
+min-height: 500px;
+min-width:  90vw;
+background-color: #bda5a5;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+
+.contain-text {
+    width: 100%;
+    min-height: 100px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.contain-text p {
+padding: 30px;
+}
+
+.select-note {
+    font-size: 1rem;
+}
+
+.avatar-img {
+height: 200px;
+width: 200px;
+}
+
+.avatar-img-2 {
+    height: 80px;
+    width: 80px;
+
+}
+
+.selected {
+    background-color: grey !important;
+}
+
+.continue-btn {
+width: 200px;
+height: 50px;
+line-height: 50px;
+background-color: purple;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+
+.continue-btn:hover {
+background-color: #fff;
+color: purple;
+bordeR: 2px solid purple;
+}
+
+.select-option {
+width: 100%;
+min-height: 50px;
+line-height: 50px;
+background-color: purple;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
