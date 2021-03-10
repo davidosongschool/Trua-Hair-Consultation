@@ -12,65 +12,137 @@ let qThree = []
 // Objects to store information on each selection - Question one
 const dryLink1 = {
     text: "Products to help dry scalp",
-    links: ["https://truahair.ie/product/system-professional-balance-shampoo/", "https://truahair.ie/product/scalp-genesis-soothing-shampoo/"],
+    links: [{
+        link: "https://truahair.ie/product/system-professional-balance-shampoo/",
+        text: "System Profesisonal Balance Shampoo"
+    }, {
+        link: "https://truahair.ie/product/scalp-genesis-soothing-shampoo/",
+        text: "Scalp Genesis Soothing Shampoo"
+    }],
 }
 
 
 const oilyLink1 = {
     text: "Products to help oily scalp",
-    links: ["https://truahair.ie/product/scalp-genesis-purifying-shampoo/", "https://truahair.ie/product/wella-invigo-balance-aqua-pure-shampoo/"],
+    links: [{
+        link: "https://truahair.ie/product/scalp-genesis-purifying-shampoo/",
+        text: "Scalp Genesis Purifying Shampoo"
+    }, {
+        link: "https://truahair.ie/product/wella-invigo-balance-aqua-pure-shampoo/",
+        text: "Wella Balance Aqua Pure Shampoo"
+    }],
 }
 
 const dandruffLink1 = {
     text: "Products to help with Dandruff",
-    links: ["https://truahair.ie/product/system-professional-purify-shampoo/", "https://truahair.ie/product/scalp-genesis-anti-dandruff-shampoo/"],
+    links: [{
+        link: "https://truahair.ie/product/system-professional-purify-shampoo/",
+        text: "System Professional Purify Shampoo"
+    }, {
+        link: "https://truahair.ie/product/scalp-genesis-anti-dandruff-shampoo/",
+        text: "Scalp Genesis Anti Dandruff Shampoo"
+    }],
 }
 
 const thinningLink1 = {
     text: "Products to help with thinning scalp",
-    links: ["https://truahair.ie/product/scalp-genesis-root-activating-shampoo/", "https://truahair.ie/?s=NIOXIN"],
+    links: [{
+        link: "https://truahair.ie/product/scalp-genesis-root-activating-shampoo/",
+        text: "Scalp Genesis Root Activating Shampoo"
+    }, {
+        link: "https://truahair.ie/?s=NIOXIN",
+        text: "Nioxin Products"
+    }],
 }
 
 const normalLink1 = {
     text: 'Products for a normal scalp',
-    links: ["https://truahair.ie/product/wella-luminous-reveal-shampoo/", "https://truahair.ie/product/system-professional-hydrate-shampoo/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-luminous-reveal-shampoo/",
+        text: "Wella Luminous Reveal Shampoo"
+    }, {
+        link: "https://truahair.ie/product/system-professional-hydrate-shampoo/",
+        text: "System Professional Hydrate Shampoo"
+    }],
 }
 
 
 // Objects to store information on each selection - Question two
 const dryLink2 = {
     text: "Products to help dry hair",
-    links: ["https://truahair.ie/product/wella-invigo-nutri-enrich-conditioner/", "https://truahair.ie/product/system-professional-hydrate-conditioner/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-invigo-nutri-enrich-conditioner/",
+        text: "Wella Nutri Enrich Conditioner"
+    }, {
+        link: "https://truahair.ie/product/system-professional-hydrate-conditioner/",
+        text: "System Professional Hydrate Conditioner"
+    }],
 }
 
 const stressedLink2 = {
     text: "Products to help stressed hair",
-    links: ["https://truahair.ie/product/system-professional-smoothen-conditioner/", "https://truahair.ie/product/wella-invigo-nutri-enrich-conditioner/"],
+    links: [{
+        link: "https://truahair.ie/product/system-professional-smoothen-conditioner/",
+        text: "System Professional Smoothen Conditioner"
+    }, {
+        link: "https://truahair.ie/product/wella-invigo-nutri-enrich-conditioner/",
+        text: "Wella Nutri Enrich Conditioner"
+    }],
 }
 
 const damagedLink2 = {
     text: "Products to help damaged hair",
-    links: ["https://truahair.ie/product/wella-fusion-conditioner/", "https://truahair.ie/product/wella-system-professional-repair-conditioner/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-fusion-conditioner/",
+        text: "Wella Fusion Conditioner"
+    }, {
+        link: "https://truahair.ie/product/wella-system-professional-repair-conditioner/",
+        text: "System Professional Repair Conditioner"
+    }],
 }
 
 const limpLink2 = {
     text: "Products to help limp hair",
-    links: ["https://truahair.ie/product/wella-invigo-volume-boost-mask/", "https://truahair.ie/product/system-professional-volumize-mask/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-invigo-volume-boost-mask/",
+        text: "Wella Volume Boost Mask"
+    }, {
+        link: "https://truahair.ie/product/system-professional-volumize-mask/",
+        text: "System Professional Volume Mask"
+    }],
 }
 
 const thinningLink2 = {
     text: "Products to help thinning hair",
-    links: ["https://truahair.ie/product/wella-invigo-anti-hair-loss-serum/", "https://truahair.ie/product/nioxin-leave-in-treatment/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-invigo-anti-hair-loss-serum/",
+        text: "Wella Anti Hair Loss Serum"
+    }, {
+        link: "https://truahair.ie/product/nioxin-leave-in-treatment/",
+        text: "Nixion Leave In Treatment"
+    }],
 }
 
 const lackingshineLink2 = {
     text: "Products to help hair lacking shine",
-    links: ["https://truahair.ie/product/wella-luminous-smoothing-oil/", "https://truahair.ie/product/system-professional-color-save-shimmering-spray/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-luminous-smoothing-oil/",
+        text: "Wella Luminous Smoothing Oil"
+    }, {
+        link: "https://truahair.ie/product/system-professional-color-save-shimmering-spray/",
+        text: "System Professional Color Save Spray"
+    }],
 }
 
 const curlyLink2 = {
     text: "Products to help curly hair",
-    links: ["https://truahair.ie/product/wella-eimi-nutricurls-fresh-up/", "https://truahair.ie/product/wella-nutricurls-mask/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-eimi-nutricurls-fresh-up/",
+        text: "Wella Eimi Nutricurls Fresh Up"
+    }, {
+        link: "https://truahair.ie/product/wella-nutricurls-mask/",
+        text: "Wella Nutricurls Mask"
+    }],
 }
 
 
@@ -79,38 +151,59 @@ const curlyLink2 = {
 
 const hottoolsLink3 = {
     text: "I use hot tools regularly!",
-    links: ["https://truahair.ie/product/wella-eimi-thermal-image/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-eimi-thermal-image/",
+        text: "Wella Eimi Thermal Image"
+    }],
 }
 
 const increaseshineLink3 = {
     text: "I want to increase shine!",
-    links: ["https://truahair.ie/product/wella-luminous-reboost-mask/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-luminous-reboost-mask/",
+        text: "Wella Luminous Reboost Mask"
+    }],
 }
 
 
 const deeprepairLink3 = {
     text: "My hair needs deep repair!",
-    links: ["https://truahair.ie/product/nioxin-deep-repair-hair-mask/"],
+    links: [{
+        link: "https://truahair.ie/product/nioxin-deep-repair-hair-mask/",
+        text: "Nixion Deep Repair Hair Mask"
+    }],
 }
 
 const volumerootLink3 = {
     text: "I want volume from the root!",
-    links: ["https://truahair.ie/product/wella-invigo-volume-boost-uplifting-care-spray/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-invigo-volume-boost-uplifting-care-spray/",
+        text: "Wella Volume Boost Spray"
+    }],
 }
 
 const shreddingLink3 = {
     text: "My hair is prone to shredding!",
-    links: ["https://truahair.ie/product/nioxin-night-density-rescue/"],
+    links: [{
+        link: "https://truahair.ie/product/nioxin-night-density-rescue/",
+        text: "Nixion Night Density Rescue"
+    }],
 }
 
 const knottyLink3 = {
     text: "My hair is knotty!",
-    links: ["https://truahair.ie/product/wella-fusion-mask/"],
+    links: [{
+        link: "https://truahair.ie/product/wella-fusion-mask/",
+        text: "Wella Fusion Mask"
+    }],
 }
 
 const dryshampooLink3 = {
     text: "I use dry shampoo regularly!",
-    links: ["https://truahair.ie/product/martinsson-king-invisible-cleanse-dry-shampoo/"],
+    links: [{
+        link: "https://truahair.ie/product/martinsson-king-invisible-cleanse-dry-shampoo/",
+        text: "Martinsson King Invisible Cleanse Dry Shampoo"
+    }],
 }
 
 
@@ -147,21 +240,43 @@ $('.contain-quiz').on("click", ".continue-btn", function () {
 
         // Results for Q1
         for (i = 0; i < qOne.length; i++) {
-            document.getElementById("results").innerHTML += '<div class="col-12"><p>Result: ' + qOne[i].text + '</p></div>';
-        }
 
+            document.getElementById("results").innerHTML += '<div class="contain-text-2 shadow mx-auto">' + qOne[i].text;
+
+            for (j = 0; j < qOne[i].links.length; j++) {
+                document.getElementById("results").innerHTML += '<a target="_blank" href="' + qOne[i].links[j].link + '"><div class="product-links">' + qOne[i].links[j].text + '</div></a>';
+            }
+
+            document.getElementById("results").innerHTML += '</div>'
+        }
         // Results for Q2
         for (i = 0; i < qTwo.length; i++) {
-            document.getElementById("results").innerHTML += '<div class="col-12"><p>Result: ' + qTwo[i].text + '</p></div>';
+
+            document.getElementById("results").innerHTML += '<div class="contain-text-2 shadow mx-auto mt-3">' + qTwo[i].text;
+
+            for (j = 0; j < qTwo[i].links.length; j++) {
+                document.getElementById("results").innerHTML += '<a target="_blank" href="' + qTwo[i].links[j].link + '"><div class="product-links">' + qTwo[i].links[j].text + '</div></a>';
+            }
+
+            document.getElementById("results").innerHTML += '</div>'
         }
+
 
         // Results for Q3
         for (i = 0; i < qThree.length; i++) {
-            document.getElementById("results").innerHTML += '<div class="col-12"><p>Result: ' + qThree[i].text + '</p></div>';
+
+            document.getElementById("results").innerHTML += '<div class="contain-text-2 shadow mx-auto mt-3">' + qThree[i].text;
+
+            for (j = 0; j < qThree[i].links.length; j++) {
+                document.getElementById("results").innerHTML += '<a target="_blank" href="' + qThree[i].links[j].link + '"><div class="product-links">' + qThree[i].links[j].text + '</div></a>';
+            }
+
+            document.getElementById("results").innerHTML += '</div>'
         }
+        
 
     }
-    
+
 
     optionsSelected = 0;
     $('.position' + position).removeClass("d-none");
