@@ -1,3 +1,3 @@
 ## Questionaire
 
-Questionaire for Bond Hair Health
+Questionaire for Trua Hair
