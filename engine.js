@@ -241,7 +241,7 @@ $('.contain-quiz').on("click", ".continue-btn", function () {
         // Results for Q1
         for (i = 0; i < qOne.length; i++) {
 
-            document.getElementById("results").innerHTML += '<div class="contain-text-2 shadow mx-auto">' + qOne[i].text;
+            document.getElementById("results").innerHTML += '<div class="contain-text-2 shadow mx-auto mt-3">' + qOne[i].text;
 
             for (j = 0; j < qOne[i].links.length; j++) {
                 document.getElementById("results").innerHTML += '<a target="_blank" href="' + qOne[i].links[j].link + '"><div class="product-links">' + qOne[i].links[j].text + '</div></a>';
